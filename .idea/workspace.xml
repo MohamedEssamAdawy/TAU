@@ -18,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Selenium-WebDriver-with-Java" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -40,11 +40,13 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\moham\TAU\Selenium-WebDriver-with-Java" />
+      <recent name="C:\Users\moham\TAU\" />
       <recent name="C:\Users\moham\TAU\resources" />
     </key>
   </component>
@@ -161,6 +163,11 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Selenium-WebDriver-with-Java" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
     <state x="275" y="27" key="#Code_Cleanup_Inspections" timestamp="1585627078202">
       <screen x="0" y="0" width="1366" height="738" />
@@ -174,6 +181,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="432" y="205" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.738@0.0.1366.738" timestamp="1585776204568" />
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1585778958834">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1585778958834" />
     <state x="463" y="111" key="FileChooserDialogImpl" timestamp="1585778490918">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -210,10 +221,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="637" height="217" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1585753939149" />
-    <state x="28" y="0" key="SettingsEditor" timestamp="1585778368361">
+    <state x="28" y="0" key="SettingsEditor" timestamp="1585778857071">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="28" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1585778368361" />
+    <state x="28" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1585778857071" />
     <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1585776123029">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

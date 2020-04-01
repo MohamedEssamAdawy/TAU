@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7bce86d-96b0-47eb-b16f-a40594c96e09" name="Default Changelist" comment="" />
+    <list default="true" id="c7bce86d-96b0-47eb-b16f-a40594c96e09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/alerts/ContextMenuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Mohammed Essam Elborolossy &lt;mohammedelborolossy@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -50,7 +58,7 @@
       <recent name="C:\Users\moham\TAU\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FileUploadTest.testUploadFile">
+  <component name="RunManager" selected="TestNG.ContextMenuTest.testContextClick">
     <configuration name="AlertTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAU" />
       <extension name="coverage">
@@ -104,6 +112,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ContextMenuTest.testContextClick" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alerts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="alerts" />
+      <option name="MAIN_CLASS_NAME" value="alerts.ContextMenuTest" />
+      <option name="METHOD_NAME" value="testContextClick" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FileUploadTest.testUploadFile" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAU" />
       <extension name="coverage">
@@ -122,31 +148,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HorizontalSliderTest.testSlideUntilValue4" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TAU" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="horizontalslider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="horizontalslider" />
-      <option name="MAIN_CLASS_NAME" value="horizontalslider.HorizontalSliderTest" />
-      <option name="METHOD_NAME" value="testSlideUntilValue4" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ContextMenuTest.testContextClick" />
         <item itemvalue="TestNG.FileUploadTest.testUploadFile" />
         <item itemvalue="TestNG.AlertTests" />
         <item itemvalue="TestNG.AlertTests.testSetInputInAlert" />
         <item itemvalue="TestNG.AlertTests.testGetTextFromAlert" />
-        <item itemvalue="TestNG.HorizontalSliderTest.testSlideUntilValue4" />
       </list>
     </recent_temporary>
   </component>
@@ -161,12 +169,22 @@
       <option name="presentableId" value="Default" />
       <updated>1585625671020</updated>
     </task>
+    <task id="LOCAL-00001" summary="Try First Commit for my all files until Chapter 7">
+      <created>1585779126232</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585779126232</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/Selenium-WebDriver-with-Java" />
     </ignored-roots>
+    <MESSAGE value="Try First Commit for my all files until Chapter 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Try First Commit for my all files until Chapter 7" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="27" key="#Code_Cleanup_Inspections" timestamp="1585627078202">
@@ -181,30 +199,30 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="432" y="205" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.738@0.0.1366.738" timestamp="1585776204568" />
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1585778958834">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1585779125173">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1585778958834" />
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1585779125173" />
     <state x="463" y="111" key="FileChooserDialogImpl" timestamp="1585778490918">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="111" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1585778490918" />
-    <state width="1323" height="186" key="GridCell.Tab.0.bottom" timestamp="1585774986341">
+    <state width="1323" height="185" key="GridCell.Tab.0.bottom" timestamp="1585779831644">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="186" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585774986341" />
-    <state width="1323" height="186" key="GridCell.Tab.0.center" timestamp="1585774986341">
+    <state width="1323" height="185" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585779831644" />
+    <state width="1323" height="185" key="GridCell.Tab.0.center" timestamp="1585779831644">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="186" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1585774986341" />
-    <state width="1323" height="186" key="GridCell.Tab.0.left" timestamp="1585774986341">
+    <state width="1323" height="185" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1585779831644" />
+    <state width="1323" height="185" key="GridCell.Tab.0.left" timestamp="1585779831644">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="186" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1585774986341" />
-    <state width="1323" height="186" key="GridCell.Tab.0.right" timestamp="1585774986341">
+    <state width="1323" height="185" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1585779831644" />
+    <state width="1323" height="185" key="GridCell.Tab.0.right" timestamp="1585779831644">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="186" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1585774986341" />
+    <state width="1323" height="185" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1585779831644" />
     <state width="637" height="217" key="GridCell.Tab.1.bottom" timestamp="1585753939149">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -225,6 +243,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="28" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1585778857071" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1585779776192">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1585779776192" />
     <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1585776123029">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

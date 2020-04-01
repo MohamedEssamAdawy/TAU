@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c7bce86d-96b0-47eb-b16f-a40594c96e09" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="TAU" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Selenium-WebDriver-with-Java" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZsRAOn0wg4GdpZD60wUtrDpzys" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Selenium-WebDriver-with-Java" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\moham\TAU\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.FileUploadTest.testUploadFile">
+    <configuration name="AlertTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alerts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="alerts" />
+      <option name="MAIN_CLASS_NAME" value="alerts.AlertTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlertTests.testGetTextFromAlert" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alerts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="alerts" />
+      <option name="MAIN_CLASS_NAME" value="alerts.AlertTests" />
+      <option name="METHOD_NAME" value="testGetTextFromAlert" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlertTests.testSetInputInAlert" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alerts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="alerts" />
+      <option name="MAIN_CLASS_NAME" value="alerts.AlertTests" />
+      <option name="METHOD_NAME" value="testSetInputInAlert" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileUploadTest.testUploadFile" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alerts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="alerts" />
+      <option name="MAIN_CLASS_NAME" value="alerts.FileUploadTest" />
+      <option name="METHOD_NAME" value="testUploadFile" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HorizontalSliderTest.testSlideUntilValue4" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="horizontalslider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="horizontalslider" />
+      <option name="MAIN_CLASS_NAME" value="horizontalslider.HorizontalSliderTest" />
+      <option name="METHOD_NAME" value="testSlideUntilValue4" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.FileUploadTest.testUploadFile" />
+        <item itemvalue="TestNG.AlertTests" />
+        <item itemvalue="TestNG.AlertTests.testSetInputInAlert" />
+        <item itemvalue="TestNG.AlertTests.testGetTextFromAlert" />
+        <item itemvalue="TestNG.HorizontalSliderTest.testSlideUntilValue4" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7bce86d-96b0-47eb-b16f-a40594c96e09" name="Default Changelist" comment="" />
+      <created>1585625671020</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585625671020</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="27" key="#Code_Cleanup_Inspections" timestamp="1585627078202">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="27" key="#Code_Cleanup_Inspections/0.0.1366.738@0.0.1366.738" timestamp="1585627078202" />
+    <state x="92" y="92" width="1182" height="554" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1585709354740">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="92" y="92" width="1182" height="554" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.738@0.0.1366.738" timestamp="1585709354740" />
+    <state x="432" y="205" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1585776204568">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="432" y="205" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.738@0.0.1366.738" timestamp="1585776204568" />
+    <state x="463" y="111" key="FileChooserDialogImpl" timestamp="1585778490918">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="111" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1585778490918" />
+    <state width="1323" height="186" key="GridCell.Tab.0.bottom" timestamp="1585774986341">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="186" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585774986341" />
+    <state width="1323" height="186" key="GridCell.Tab.0.center" timestamp="1585774986341">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="186" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1585774986341" />
+    <state width="1323" height="186" key="GridCell.Tab.0.left" timestamp="1585774986341">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="186" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1585774986341" />
+    <state width="1323" height="186" key="GridCell.Tab.0.right" timestamp="1585774986341">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="186" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1585774986341" />
+    <state width="637" height="217" key="GridCell.Tab.1.bottom" timestamp="1585753939149">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="637" height="217" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585753939149" />
+    <state width="637" height="217" key="GridCell.Tab.1.center" timestamp="1585753939149">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="637" height="217" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1585753939149" />
+    <state width="637" height="217" key="GridCell.Tab.1.left" timestamp="1585753939149">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="637" height="217" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1585753939149" />
+    <state width="637" height="217" key="GridCell.Tab.1.right" timestamp="1585753939149">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="637" height="217" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1585753939149" />
+    <state x="28" y="0" key="SettingsEditor" timestamp="1585778368361">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="28" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1585778368361" />
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1585776123029">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1585776123029" />
+    <state x="0" y="0" width="661" height="738" key="find.popup" timestamp="1585626405585">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="0" y="0" width="661" height="738" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1585626405585" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1585749773434">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1585749773434" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/chapter1/Exercise.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/keypesses/KeyPressesTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/horizontalslider/HorizontalSliderTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TAU$BaseTest.ic" NAME="BaseTest Coverage Results" MODIFIED="1585627177861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>base.*</FILTER>
+    </SUITE>
+  </component>
+</project>

@@ -11,6 +11,7 @@ import org.testng.annotations.BeforeMethod;
 import pages.HomePage;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
     private WebDriver driver;
@@ -20,6 +21,8 @@ public class BaseTest {
     public void setUp (){
         System.setProperty("webdriver.chrome.driver","resources/chromedriver.exe");
         driver = new ChromeDriver();
+        //Implicit TimeOut
+        //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         goHome();
         homePage = new HomePage(driver);
     }
@@ -33,7 +36,7 @@ public class BaseTest {
         driver.quit();
     }
 
-    public static void main(String args[]){
+    public static void main(String[] args){
         BaseTest test = new BaseTest();
         test.setUp();
     }

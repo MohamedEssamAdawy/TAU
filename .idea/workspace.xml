@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7bce86d-96b0-47eb-b16f-a40594c96e09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/CookiesManger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cookies/CookiesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="c7bce86d-96b0-47eb-b16f-a40594c96e09" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -233,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585807814894</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add Chapter 14 codes and my solution for Optional Exercise. &#10;This is the End of the Course.">
+      <created>1585811601533</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1585811601533</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,7 +261,8 @@
     <MESSAGE value="Add Chapter 11 codes and my solution for the independent exercise" />
     <MESSAGE value="Add Chapter 12 codes, No Optional Exercise :D" />
     <MESSAGE value="Add Chapter 13 codes, Optional Exercise is to implement more EventListeners&#10;I made afterScript and test it wit JavascriptTest." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Chapter 13 codes, Optional Exercise is to implement more EventListeners&#10;I made afterScript and test it wit JavascriptTest." />
+    <MESSAGE value="Add Chapter 14 codes and my solution for Optional Exercise. &#10;This is the End of the Course." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Chapter 14 codes and my solution for Optional Exercise. &#10;This is the End of the Course." />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="27" key="#Code_Cleanup_Inspections" timestamp="1585627078202">
@@ -279,10 +281,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="488" y="78" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1585807068188" />
-    <state x="473" y="0" key="CommitChangelistDialog2" timestamp="1585807813773">
+    <state x="473" y="0" key="CommitChangelistDialog2" timestamp="1585811600485">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="473" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1585807813773" />
+    <state x="473" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1585811600485" />
     <state x="463" y="111" key="FileChooserDialogImpl" timestamp="1585778490918">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

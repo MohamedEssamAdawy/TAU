@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7bce86d-96b0-47eb-b16f-a40594c96e09" name="Default Changelist" comment="Add Chapter 10 codes and my solution for the independent exercise">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/InfiniteScrollPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LargeAndDeepDOMPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/javascript/JavascriptTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pages/InfiniteScrollPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pages/LargeAndDeepDOMPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/javascript/JavascriptTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/wait/WaitTest.class" afterDir="false" />
+    <list default="true" id="c7bce86d-96b0-47eb-b16f-a40594c96e09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/MultipleWindowPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/WindowManger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/navigation/NavigationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DropDownPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DropDownPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingExample2Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingExample2Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/DropDownPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/DropDownPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/DynamicLoadingExample2Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/DynamicLoadingExample2Page.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/DynamicLoadingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/DynamicLoadingPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +71,7 @@
       <recent name="C:\Users\moham\TAU\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.JavascriptTest.testEnableMultipleAttForDropDown">
+  <component name="RunManager" selected="TestNG.NavigationTest.testFindStartButtonInNewTab">
     <configuration name="JavascriptTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAU" />
       <extension name="coverage">
@@ -106,17 +107,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavascriptTest.testScrollPageTo5thParagraph" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NavigationTest.testFindStartButtonInNewTab" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javascript.*" />
+          <option name="PATTERN" value="navigation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="javascript" />
-      <option name="MAIN_CLASS_NAME" value="javascript.JavascriptTest" />
-      <option name="METHOD_NAME" value="testScrollPageTo5thParagraph" />
+      <option name="PACKAGE_NAME" value="navigation" />
+      <option name="MAIN_CLASS_NAME" value="navigation.NavigationTest" />
+      <option name="METHOD_NAME" value="testFindStartButtonInNewTab" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -124,17 +125,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavascriptTest.testScrollUntilTableView" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NavigationTest.testNavigator" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javascript.*" />
+          <option name="PATTERN" value="navigation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="javascript" />
-      <option name="MAIN_CLASS_NAME" value="javascript.JavascriptTest" />
-      <option name="METHOD_NAME" value="testScrollUntilTableView" />
+      <option name="PACKAGE_NAME" value="navigation" />
+      <option name="MAIN_CLASS_NAME" value="navigation.NavigationTest" />
+      <option name="METHOD_NAME" value="testNavigator" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -142,17 +143,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitTest.testWaitUntilElementAvailable" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NavigationTest.testSwitchTab" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wait.*" />
+          <option name="PATTERN" value="navigation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="wait" />
-      <option name="MAIN_CLASS_NAME" value="wait.WaitTest" />
-      <option name="METHOD_NAME" value="testWaitUntilElementAvailable" />
+      <option name="PACKAGE_NAME" value="navigation" />
+      <option name="MAIN_CLASS_NAME" value="navigation.NavigationTest" />
+      <option name="METHOD_NAME" value="testSwitchTab" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -162,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.JavascriptTest.testEnableMultipleAttForDropDown" />
-        <item itemvalue="TestNG.JavascriptTest.testScrollPageTo5thParagraph" />
-        <item itemvalue="TestNG.JavascriptTest.testScrollUntilTableView" />
+        <item itemvalue="TestNG.NavigationTest.testFindStartButtonInNewTab" />
+        <item itemvalue="TestNG.NavigationTest.testSwitchTab" />
+        <item itemvalue="TestNG.NavigationTest.testNavigator" />
         <item itemvalue="TestNG.JavascriptTest" />
-        <item itemvalue="TestNG.WaitTest.testWaitUntilElementAvailable" />
+        <item itemvalue="TestNG.JavascriptTest.testEnableMultipleAttForDropDown" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585791923872</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Chapter 10 codes and my solution for the independent exercise">
+      <created>1585800475218</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585800475218</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,46 +255,46 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="432" y="205" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.738@0.0.1366.738" timestamp="1585776204568" />
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1585800431974">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1585800474397">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1585800431974" />
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1585800474397" />
     <state x="463" y="111" key="FileChooserDialogImpl" timestamp="1585778490918">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="111" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1585778490918" />
-    <state width="1323" height="185" key="GridCell.Tab.0.bottom" timestamp="1585800284551">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1585805140247">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="185" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585800284551" />
-    <state width="1323" height="185" key="GridCell.Tab.0.center" timestamp="1585800284551">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585805140247" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1585805140247">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="185" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1585800284551" />
-    <state width="1323" height="185" key="GridCell.Tab.0.left" timestamp="1585800284551">
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1585805140247" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1585805140246">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="185" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1585800284551" />
-    <state width="1323" height="185" key="GridCell.Tab.0.right" timestamp="1585800284551">
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1585805140246" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1585805140247">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="185" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1585800284551" />
-    <state width="1323" height="217" key="GridCell.Tab.1.bottom" timestamp="1585799665275">
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1585805140247" />
+    <state width="1323" height="220" key="GridCell.Tab.1.bottom" timestamp="1585804963130">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="217" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585799665275" />
-    <state width="1323" height="217" key="GridCell.Tab.1.center" timestamp="1585799665275">
+    <state width="1323" height="220" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585804963130" />
+    <state width="1323" height="220" key="GridCell.Tab.1.center" timestamp="1585804963130">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="217" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1585799665275" />
-    <state width="1323" height="217" key="GridCell.Tab.1.left" timestamp="1585799665275">
+    <state width="1323" height="220" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1585804963130" />
+    <state width="1323" height="220" key="GridCell.Tab.1.left" timestamp="1585804963130">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="217" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1585799665275" />
-    <state width="1323" height="217" key="GridCell.Tab.1.right" timestamp="1585799665275">
+    <state width="1323" height="220" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1585804963130" />
+    <state width="1323" height="220" key="GridCell.Tab.1.right" timestamp="1585804963130">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="217" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1585799665275" />
+    <state width="1323" height="220" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1585804963130" />
     <state x="28" y="0" key="SettingsEditor" timestamp="1585778857071">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -295,10 +303,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.738@0.0.1366.738" timestamp="1585781399169" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1585791934306">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1585800487945">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1585791934306" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1585800487945" />
     <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1585776123029">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -307,10 +315,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="0" y="0" width="661" height="738" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1585626405585" />
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1585749773434">
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1585801948908">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1585749773434" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1585801948908" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -329,6 +337,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/horizontalslider/HorizontalSliderTest.java</url>
           <line>13</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/utils/WindowManger.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/navigation/NavigationTest.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -9,6 +9,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import pages.HomePage;
+import utils.WindowManger;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -31,9 +32,14 @@ public class BaseTest {
     public void goHome(){
         driver.get("https://the-internet.herokuapp.com/");
     }
+
     @AfterClass
     public void tearDown(){
         driver.quit();
+    }
+
+    public WindowManger getWindowManger(){
+        return new WindowManger(driver);
     }
 
     public static void main(String[] args){

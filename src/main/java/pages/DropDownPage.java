@@ -1,6 +1,7 @@
 package pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
@@ -18,6 +19,7 @@ public class DropDownPage {
 
     public void selectFromDropDown (String option){
        findDropDownElement().selectByVisibleText(option);
+//        findDropDownElement().selectByValue(option);
     }
 
     public List<String> getSelectedOptions(){
@@ -25,6 +27,14 @@ public class DropDownPage {
                 findDropDownElement().getAllSelectedOptions();
         return selectedElements.stream().map(e->e.getText()).collect(Collectors.toList());
     }
+
+    public void enableMultipleAtt(){
+        WebElement dropDownElement = driver.findElement(dropdown);
+        String script = "arguments[0].setAttribute('multiple', '')";
+        var jsExecutor = (JavascriptExecutor)driver;
+        jsExecutor.executeScript(script,dropDownElement);
+    }
+
     private Select findDropDownElement(){
         return new Select(driver.findElement(dropdown));
     }

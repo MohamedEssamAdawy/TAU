@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7bce86d-96b0-47eb-b16f-a40594c96e09" name="Default Changelist" comment="Add Chapter 9 codes and my solution for the independent exercise">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingExample1Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingExample2Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/wait/WaitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pages/DynamicLoadingExample1Page.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pages/DynamicLoadingExample2Page.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pages/DynamicLoadingPage.class" afterDir="false" />
+    <list default="true" id="c7bce86d-96b0-47eb-b16f-a40594c96e09" name="Default Changelist" comment="Add Chapter 10 codes and my solution for the independent exercise">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/InfiniteScrollPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LargeAndDeepDOMPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/javascript/JavascriptTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/InfiniteScrollPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/LargeAndDeepDOMPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/javascript/JavascriptTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/wait/WaitTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DropDownPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DropDownPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/DropDownPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/DropDownPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/frames/NestedFramsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/frames/NestedFramsTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,72 +70,72 @@
       <recent name="C:\Users\moham\TAU\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.WaitTest.testWaitUntilElementAvailable">
-    <configuration name="ContextMenuTest.testContextClick" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.JavascriptTest.testEnableMultipleAttForDropDown">
+    <configuration name="JavascriptTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alerts.*" />
+          <option name="PATTERN" value="javascript.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.ContextMenuTest" />
-      <option name="METHOD_NAME" value="testContextClick" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NestedFramsTest.testNestedFramesLeft_Bottom" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TAU" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="frames.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="frames" />
-      <option name="MAIN_CLASS_NAME" value="frames.NestedFramsTest" />
-      <option name="METHOD_NAME" value="testNestedFramesLeft_Bottom" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WYSIWYGEditorTest.testIndentText" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TAU" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="frames.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="frames" />
-      <option name="MAIN_CLASS_NAME" value="frames.WYSIWYGEditorTest" />
-      <option name="METHOD_NAME" value="testIndentText" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WaitTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TAU" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wait.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="wait" />
-      <option name="MAIN_CLASS_NAME" value="wait.WaitTest" />
+      <option name="PACKAGE_NAME" value="javascript" />
+      <option name="MAIN_CLASS_NAME" value="javascript.JavascriptTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavascriptTest.testEnableMultipleAttForDropDown" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javascript.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="javascript" />
+      <option name="MAIN_CLASS_NAME" value="javascript.JavascriptTest" />
+      <option name="METHOD_NAME" value="testEnableMultipleAttForDropDown" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavascriptTest.testScrollPageTo5thParagraph" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javascript.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="javascript" />
+      <option name="MAIN_CLASS_NAME" value="javascript.JavascriptTest" />
+      <option name="METHOD_NAME" value="testScrollPageTo5thParagraph" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavascriptTest.testScrollUntilTableView" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javascript.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="javascript" />
+      <option name="MAIN_CLASS_NAME" value="javascript.JavascriptTest" />
+      <option name="METHOD_NAME" value="testScrollUntilTableView" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -162,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.JavascriptTest.testEnableMultipleAttForDropDown" />
+        <item itemvalue="TestNG.JavascriptTest.testScrollPageTo5thParagraph" />
+        <item itemvalue="TestNG.JavascriptTest.testScrollUntilTableView" />
+        <item itemvalue="TestNG.JavascriptTest" />
         <item itemvalue="TestNG.WaitTest.testWaitUntilElementAvailable" />
-        <item itemvalue="TestNG.WaitTest" />
-        <item itemvalue="TestNG.NestedFramsTest.testNestedFramesLeft_Bottom" />
-        <item itemvalue="TestNG.WYSIWYGEditorTest.testIndentText" />
-        <item itemvalue="TestNG.ContextMenuTest.testContextClick" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585789802035</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Chapter 9 codes and my solution for the independent exercise">
+      <created>1585791923872</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585791923872</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,61 +231,62 @@
     <MESSAGE value="Add ContextMenuTest that is the Independent Exercise for Chapter 7" />
     <MESSAGE value="Add Chapter 8 codes and my solution for the independent exercise" />
     <MESSAGE value="Add Chapter 9 codes and my solution for the independent exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Chapter 9 codes and my solution for the independent exercise" />
+    <MESSAGE value="Add Chapter 10 codes and my solution for the independent exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Chapter 10 codes and my solution for the independent exercise" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="27" key="#Code_Cleanup_Inspections" timestamp="1585627078202">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="27" key="#Code_Cleanup_Inspections/0.0.1366.738@0.0.1366.738" timestamp="1585627078202" />
-    <state x="92" y="92" width="1182" height="554" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1585786348408">
+    <state x="92" y="92" width="1182" height="554" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1585800049225">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="92" y="92" width="1182" height="554" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.738@0.0.1366.738" timestamp="1585786348408" />
+    <state x="92" y="92" width="1182" height="554" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.738@0.0.1366.738" timestamp="1585800049225" />
     <state x="432" y="205" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1585776204568">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="432" y="205" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.738@0.0.1366.738" timestamp="1585776204568" />
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1585791860106">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1585800431974">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1585791860106" />
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1585800431974" />
     <state x="463" y="111" key="FileChooserDialogImpl" timestamp="1585778490918">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="111" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1585778490918" />
-    <state width="1323" height="185" key="GridCell.Tab.0.bottom" timestamp="1585791817861">
+    <state width="1323" height="185" key="GridCell.Tab.0.bottom" timestamp="1585800284551">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="185" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585791817861" />
-    <state width="1323" height="185" key="GridCell.Tab.0.center" timestamp="1585791817861">
+    <state width="1323" height="185" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585800284551" />
+    <state width="1323" height="185" key="GridCell.Tab.0.center" timestamp="1585800284551">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="185" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1585791817861" />
-    <state width="1323" height="185" key="GridCell.Tab.0.left" timestamp="1585791817860">
+    <state width="1323" height="185" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1585800284551" />
+    <state width="1323" height="185" key="GridCell.Tab.0.left" timestamp="1585800284551">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="185" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1585791817860" />
-    <state width="1323" height="185" key="GridCell.Tab.0.right" timestamp="1585791817861">
+    <state width="1323" height="185" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1585800284551" />
+    <state width="1323" height="185" key="GridCell.Tab.0.right" timestamp="1585800284551">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="185" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1585791817861" />
-    <state width="1323" height="217" key="GridCell.Tab.1.bottom" timestamp="1585791412882">
+    <state width="1323" height="185" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1585800284551" />
+    <state width="1323" height="217" key="GridCell.Tab.1.bottom" timestamp="1585799665275">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="217" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585791412882" />
-    <state width="1323" height="217" key="GridCell.Tab.1.center" timestamp="1585791412882">
+    <state width="1323" height="217" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585799665275" />
+    <state width="1323" height="217" key="GridCell.Tab.1.center" timestamp="1585799665275">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="217" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1585791412882" />
-    <state width="1323" height="217" key="GridCell.Tab.1.left" timestamp="1585791412882">
+    <state width="1323" height="217" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1585799665275" />
+    <state width="1323" height="217" key="GridCell.Tab.1.left" timestamp="1585799665275">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="217" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1585791412882" />
-    <state width="1323" height="217" key="GridCell.Tab.1.right" timestamp="1585791412882">
+    <state width="1323" height="217" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1585799665275" />
+    <state width="1323" height="217" key="GridCell.Tab.1.right" timestamp="1585799665275">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="217" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1585791412882" />
+    <state width="1323" height="217" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1585799665275" />
     <state x="28" y="0" key="SettingsEditor" timestamp="1585778857071">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -287,10 +295,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.738@0.0.1366.738" timestamp="1585781399169" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1585789816304">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1585791934306">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1585789816304" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1585791934306" />
     <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1585776123029">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

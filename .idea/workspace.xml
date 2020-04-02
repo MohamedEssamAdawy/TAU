@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7bce86d-96b0-47eb-b16f-a40594c96e09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/MultipleWindowPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/WindowManger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/navigation/NavigationTest.java" afterDir="false" />
+    <list default="true" id="c7bce86d-96b0-47eb-b16f-a40594c96e09" name="Default Changelist" comment="Add Chapter 13 codes, Optional Exercise is to implement more EventListeners&#10;I made afterScript and test it wit JavascriptTest.">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/EventReporter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingExample2Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingExample2Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/DropDownPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/DropDownPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/DynamicLoadingExample2Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/DynamicLoadingExample2Page.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/DynamicLoadingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/DynamicLoadingPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +48,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Selenium-WebDriver-with-Java" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -71,8 +65,8 @@
       <recent name="C:\Users\moham\TAU\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.NavigationTest.testFindStartButtonInNewTab">
-    <configuration name="JavascriptTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.JavascriptTest.testScrollUntilTableView">
+    <configuration name="JavascriptTest.testScrollUntilTableView" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAU" />
       <extension name="coverage">
         <pattern>
@@ -82,24 +76,43 @@
       </extension>
       <option name="PACKAGE_NAME" value="javascript" />
       <option name="MAIN_CLASS_NAME" value="javascript.JavascriptTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="testScrollUntilTableView" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavascriptTest.testEnableMultipleAttForDropDown" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="KeyPressesTest.testBackspace" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javascript.*" />
+          <option name="PATTERN" value="keypesses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="javascript" />
-      <option name="MAIN_CLASS_NAME" value="javascript.JavascriptTest" />
-      <option name="METHOD_NAME" value="testEnableMultipleAttForDropDown" />
+      <option name="PACKAGE_NAME" value="keypesses" />
+      <option name="MAIN_CLASS_NAME" value="keypesses.KeyPressesTest" />
+      <option name="METHOD_NAME" value="testBackspace" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.testSuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="login" />
+      <option name="MAIN_CLASS_NAME" value="login.LoginTest" />
+      <option name="METHOD_NAME" value="testSuccessfulLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -118,24 +131,6 @@
       <option name="PACKAGE_NAME" value="navigation" />
       <option name="MAIN_CLASS_NAME" value="navigation.NavigationTest" />
       <option name="METHOD_NAME" value="testFindStartButtonInNewTab" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NavigationTest.testNavigator" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TAU" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="navigation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="navigation" />
-      <option name="MAIN_CLASS_NAME" value="navigation.NavigationTest" />
-      <option name="METHOD_NAME" value="testNavigator" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -163,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.JavascriptTest.testScrollUntilTableView" />
+        <item itemvalue="TestNG.LoginTest.testSuccessfulLogin" />
+        <item itemvalue="TestNG.KeyPressesTest.testBackspace" />
         <item itemvalue="TestNG.NavigationTest.testFindStartButtonInNewTab" />
         <item itemvalue="TestNG.NavigationTest.testSwitchTab" />
-        <item itemvalue="TestNG.NavigationTest.testNavigator" />
-        <item itemvalue="TestNG.JavascriptTest" />
-        <item itemvalue="TestNG.JavascriptTest.testEnableMultipleAttForDropDown" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +212,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585800475218</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add Chapter 11 codes and my solution for the independent exercise">
+      <created>1585805195715</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585805195715</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add Chapter 12 codes, No Optional Exercise :D">
+      <created>1585806489903</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585806489903</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,6 +241,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/Selenium-WebDriver-with-Java" />
     </ignored-roots>
@@ -240,7 +250,10 @@
     <MESSAGE value="Add Chapter 8 codes and my solution for the independent exercise" />
     <MESSAGE value="Add Chapter 9 codes and my solution for the independent exercise" />
     <MESSAGE value="Add Chapter 10 codes and my solution for the independent exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Chapter 10 codes and my solution for the independent exercise" />
+    <MESSAGE value="Add Chapter 11 codes and my solution for the independent exercise" />
+    <MESSAGE value="Add Chapter 12 codes, No Optional Exercise :D" />
+    <MESSAGE value="Add Chapter 13 codes, Optional Exercise is to implement more EventListeners&#10;I made afterScript and test it wit JavascriptTest." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Chapter 13 codes, Optional Exercise is to implement more EventListeners&#10;I made afterScript and test it wit JavascriptTest." />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="27" key="#Code_Cleanup_Inspections" timestamp="1585627078202">
@@ -255,46 +268,50 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="432" y="205" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.738@0.0.1366.738" timestamp="1585776204568" />
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1585800474397">
+    <state x="488" y="78" key="#com.intellij.ide.util.MemberChooser" timestamp="1585807068188">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1585800474397" />
+    <state x="488" y="78" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1585807068188" />
+    <state x="473" y="0" key="CommitChangelistDialog2" timestamp="1585807743207">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="473" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1585807743207" />
     <state x="463" y="111" key="FileChooserDialogImpl" timestamp="1585778490918">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="111" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1585778490918" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1585805140247">
+    <state width="1323" height="181" key="GridCell.Tab.0.bottom" timestamp="1585807611741">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585805140247" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1585805140247">
+    <state width="1323" height="181" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585807611741" />
+    <state width="1323" height="181" key="GridCell.Tab.0.center" timestamp="1585807611740">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1585805140247" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1585805140246">
+    <state width="1323" height="181" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1585807611740" />
+    <state width="1323" height="181" key="GridCell.Tab.0.left" timestamp="1585807611740">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1585805140246" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1585805140247">
+    <state width="1323" height="181" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1585807611740" />
+    <state width="1323" height="181" key="GridCell.Tab.0.right" timestamp="1585807611740">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1585805140247" />
-    <state width="1323" height="220" key="GridCell.Tab.1.bottom" timestamp="1585804963130">
+    <state width="1323" height="181" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1585807611740" />
+    <state width="1323" height="220" key="GridCell.Tab.1.bottom" timestamp="1585807212445">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585804963130" />
-    <state width="1323" height="220" key="GridCell.Tab.1.center" timestamp="1585804963130">
+    <state width="1323" height="220" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585807212445" />
+    <state width="1323" height="220" key="GridCell.Tab.1.center" timestamp="1585807212445">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1585804963130" />
-    <state width="1323" height="220" key="GridCell.Tab.1.left" timestamp="1585804963130">
+    <state width="1323" height="220" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1585807212445" />
+    <state width="1323" height="220" key="GridCell.Tab.1.left" timestamp="1585807212445">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1585804963130" />
-    <state width="1323" height="220" key="GridCell.Tab.1.right" timestamp="1585804963130">
+    <state width="1323" height="220" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1585807212445" />
+    <state width="1323" height="220" key="GridCell.Tab.1.right" timestamp="1585807212445">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1585804963130" />
+    <state width="1323" height="220" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1585807212445" />
     <state x="28" y="0" key="SettingsEditor" timestamp="1585778857071">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -303,10 +320,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.738@0.0.1366.738" timestamp="1585781399169" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1585800487945">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1585806495038">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1585800487945" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1585806495038" />
     <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1585776123029">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -329,11 +346,6 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/keypesses/KeyPressesTest.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/horizontalslider/HorizontalSliderTest.java</url>
           <line>13</line>
           <option name="timeStamp" value="14" />
@@ -342,11 +354,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/utils/WindowManger.java</url>
           <line>36</line>
           <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/navigation/NavigationTest.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

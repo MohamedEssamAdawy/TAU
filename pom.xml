@@ -30,6 +30,13 @@
             <version>3.141.59</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.applitools</groupId>
+            <artifactId>eyes-selenium-java3</artifactId>
+            <version>3.160.0</version>
+        </dependency>
+
+
 
     </dependencies>
 

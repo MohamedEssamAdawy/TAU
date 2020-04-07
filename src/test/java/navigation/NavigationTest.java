@@ -7,7 +7,7 @@ import static org.testng.Assert.assertTrue;
 
 public class NavigationTest extends BaseTest {
     @Test
-    public void testNavigator(){
+    public void testNavigator() {
         homePage.clickDynamicLoadingPage().clickExample1Page();
         getWindowManger().goBack();
         getWindowManger().refreshPage();
@@ -16,15 +16,15 @@ public class NavigationTest extends BaseTest {
     }
 
     @Test
-    public void testSwitchTab(){
+    public void testSwitchTab() {
         homePage.clickMultipleWindowPage().clickHere();
         getWindowManger().switchToTab("New Window");
     }
 
     @Test
-    public void testFindStartButtonInNewTab(){
+    public void testFindStartButtonInNewTab() {
         var example2Page = homePage.clickDynamicLoadingPage().DynamicLoadingExample2PageInNewTab();
         getWindowManger().switchToNext();
-        assertTrue(example2Page.foundStartButton(),"Start button not found");
+        assertTrue(example2Page.foundStartButton(), "Start button not found");
     }
 }

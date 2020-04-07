@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 public class ForgotPassword {
     private WebDriver driver;
     private By emailField = By.id("email");
-    private By retriveButton = By.id("form_submit");
+    private By retrieveButton = By.id("form_submit");
 
     public ForgotPassword(WebDriver driver){
         this.driver = driver;
@@ -16,8 +16,8 @@ public class ForgotPassword {
         driver.findElement(emailField).sendKeys(email);
     }
 
-    public RetrivePage clickRetriveButton(){
-        driver.findElement(retriveButton).click();
-        return new RetrivePage(driver);
+    public RetrievePage clickRetrieveButton(){
+        driver.findElement(retrieveButton).click();
+        return new RetrievePage(driver);
     }
 }

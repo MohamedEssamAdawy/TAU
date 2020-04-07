@@ -3,6 +3,7 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+@SuppressWarnings("FieldCanBeLocal")
 public class WYSIWYGEditorPage {
     private WebDriver driver;
     private String editorIFrameID = "mce_0_ifr";

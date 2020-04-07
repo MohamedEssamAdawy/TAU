@@ -1,6 +1,5 @@
 package chapter1;
 
-import net.bytebuddy.implementation.bind.MethodDelegationBinder;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -32,7 +31,7 @@ public class Exercise {
 
 
 
-    public static void main(String args[]){
+    public static void main(String[] args){
         Exercise test = new Exercise();
         test.setUp();
         test.findElementByLinkText("Shifting Content");
